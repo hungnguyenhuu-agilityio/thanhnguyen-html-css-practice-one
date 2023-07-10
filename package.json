@@ -11,11 +11,5 @@
     "start": "parcel src/index.html"
   },
   "author": "Thanh Nguyen",
-  "license": "ISC",
-  "dependencies": {
-    "bases": "^0.2.1",
-    "components": "^0.1.0",
-    "layouts": "^3.0.2",
-    "utils": "^0.3.1"
-  }
+  "license": "ISC"
 }
