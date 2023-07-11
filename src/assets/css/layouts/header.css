@@ -9,18 +9,18 @@
 }
 .header_logo {
   padding-right: 20px;
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
-  text-decoration: none;
 }
-.logo_img {
+.header_logo_img {
   padding: 19px 0 24.6px 146px;
   width: 40px;
   height: 36.364px;
   flex-shrink: 0;
 }
-.logo_text {
+.header_logo_text {
   padding: 23px 0 29px 0;
   color: var(--primary-color);
   font-family: var(--primary-font);
@@ -36,17 +36,14 @@
   list-style: none;
   display: inherit;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 32px;
   line-height: 28px;
 }
-.header_list li {
-  padding-left: 30px;
-  padding-right: 30px;
-}
 .header_link {
+  padding-left: 30px;
+  text-decoration: none;
   font-family: var(--primary-font);
   font-weight: var(--fw-regular);
-  text-decoration: none;
   color: var(--primary-color);
   text-align: center;
 }
