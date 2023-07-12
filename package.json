@@ -2,14 +2,13 @@
   "name": "thanhnguyen-html-css-practice-one",
   "version": "1.0.0",
   "description": "This is Thanh Nguyen repositories of html/css practice one",
-  "main": "commitlint.config.js",
-  "devDependencies": {
-    "parcel": "^2.9.3",
-    "parcel-bundler": "^1.12.5"
-  },
   "scripts": {
     "start": "parcel src/index.html"
   },
-  "author": "Thanh Nguyen",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
