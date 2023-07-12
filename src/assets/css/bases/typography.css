@@ -1,14 +1,31 @@
 /*-----------------------------------------*\
+  #TYPOGRAPHY ELEMENT
+\*-----------------------------------------*/
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  font-weight: var(--fw-semibold);
+}
+
+/*-----------------------------------------*\
+  #TEXT CLASSES
+\*-----------------------------------------*/
+.text{
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+
+/*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
 
 @font-face {
   font-family: "Inter";
-  src: url("../../fonts/Inter-Medium.eot");
-  src: url("../../fonts/Inter-Medium.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Inter-Medium.woff2") format("woff2"),
-    url("../../fonts/Inter-Medium.woff") format("woff"),
-    url("../../fonts/Inter-Medium.ttf") format("truetype");
+  src: url("../../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../../fonts/Inter-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -16,12 +33,8 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-SemiBold.eot");
-  src: url("../../fonts/Poppins-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../fonts/Poppins-SemiBold.woff2") format("woff2"),
-    url("../../fonts/Poppins-SemiBold.woff") format("woff"),
-    url("../../fonts/Poppins-SemiBold.ttf") format("truetype");
+  src: url("../../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../../fonts/Poppins-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -29,12 +42,8 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../../fonts/Montserrat-SemiBold.eot");
-  src: url("../../fonts/Montserrat-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-    url("../../fonts/Montserrat-SemiBold.woff") format("woff"),
-    url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("../../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../../fonts/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -42,11 +51,8 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Bold.eot");
-  src: url("../../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Poppins-Bold.woff2") format("woff2"),
-    url("../../fonts/Poppins-Bold.woff") format("woff"),
-    url("../../fonts/Poppins-Bold.ttf") format("truetype");
+  src: url("../../fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../../fonts/Poppins-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -54,11 +60,8 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Regular.eot");
-  src: url("../../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Poppins-Regular.woff2") format("woff2"),
-    url("../../fonts/Poppins-Regular.woff") format("woff"),
-    url("../../fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("../../fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../../fonts/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
