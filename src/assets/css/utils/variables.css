@@ -1,12 +1,14 @@
 :root {
-    --primary-font: "Poppins";
-    --secondary-font: "Montserrat";
-    --fw-bold: 700;
-    --fw-semibold: 600;
-    --fw-regular: 400;
-    --primary-color: #FFF;
-    --secondary-color: #02897A;
-    --font-small: 16px;
-    --font-large: 40px;
-  }
- 
+  --primary-font: "Poppins";
+  --secondary-font: "Montserrat";
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-regular: 400;
+  --primary-color: #fff;
+  --secondary-color: #02897a;
+  --font-small: 16px;
+  --font-large: 40px;
+}
+body {
+  background: #1f2e35;
+}
