@@ -13,7 +13,7 @@
   gap: 10px;
 }
 .header_logo_img {
-  padding: 19px 0 19px 146px;
+  padding-left: 46px;
 }
 .header_logo_text {
   padding: 29px 0px;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: space-between;
 }
-.header_list {
+.header_navbar_item {
   display: inherit;
   align-items: center;
   margin-right: 32px;
