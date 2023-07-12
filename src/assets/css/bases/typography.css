@@ -1,18 +1,36 @@
 /*-----------------------------------------*\
   #TYPOGRAPHY ELEMENT
 \*-----------------------------------------*/
-
+p {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
 a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   font-weight: var(--fw-semibold);
 }
+h1 {
+  font-size: 40px;
+  font-weight: var(--fw-bold);
+  line-height: 60px;
+}
+h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+}
+h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-semibold);
+}
+
 
 /*-----------------------------------------*\
   #TEXT CLASSES
 \*-----------------------------------------*/
-.text{
+.text {
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
