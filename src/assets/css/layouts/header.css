@@ -1,31 +1,23 @@
 .header_container {
   width: 100%;
   height: 80px;
-  flex-shrink: 0;
-  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header_logo {
+  font-weight: var(--fw-bold);
   padding-right: 20px;
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 .header_logo_img {
-  padding: 19px 0 24.6px 146px;
-  width: 40px;
-  height: 36.364px;
-  flex-shrink: 0;
+  padding: 19px 0 19px 146px;
 }
 .header_logo_text {
-  padding: 23px 0 29px 0;
-  color: var(--primary-color);
-  font-family: var(--primary-font);
+  padding: 29px 0px;
   font-size: 30px;
-  font-weight: var(--fw-bold);
 }
 .header_navbar {
   margin-right: 271px;
@@ -33,17 +25,11 @@
   justify-content: space-between;
 }
 .header_list {
-  list-style: none;
   display: inherit;
   align-items: center;
   margin-right: 32px;
-  line-height: 28px;
 }
 .header_link {
   padding-left: 30px;
-  text-decoration: none;
-  font-family: var(--primary-font);
   font-weight: var(--fw-regular);
-  color: var(--primary-color);
-  text-align: center;
 }
