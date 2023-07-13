@@ -1,0 +1,16 @@
+.benefit-section {
+  height: 543px;
+  margin-top: 55px;
+  margin-left: 139px;
+}
+.benefit-text {
+  text-align: center;
+  margin-left: 142px;
+  margin-right: 142px;
+}
+.benefit-card {
+  display: flex;
+  margin-top: 74px;
+  width: 1120px;
+  height: 204px;
+}
