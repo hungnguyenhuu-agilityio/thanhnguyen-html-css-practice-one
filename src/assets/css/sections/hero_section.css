@@ -3,11 +3,7 @@
   flex-direction: row;
   margin: 25px 150px 0 145px;
 }
-.hero-img {
-  margin-left: 47px;
-}
 .hero-text {
-  padding: 18px;
   margin-top: 107px;
   margin-right: 47px;
   width: 518px;
@@ -18,8 +14,12 @@
   font-weight: var(--fw-regular);
   line-height: 26px;
 }
-.hero-button {
+.hero-click{
   margin-top: 45px;
+}
+.hero-button{
+  font-weight: var(--fw-bold);
+  padding: 15px 41px;
 }
 .hero-link {
   margin-top: 60px;

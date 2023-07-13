@@ -1,7 +1,7 @@
 .benefit-section {
   height: 543px;
   margin-top: 55px;
-  margin-left: 139px;
+  margin-left: 55px;
 }
 .benefit-text {
   text-align: center;
@@ -10,7 +10,55 @@
 }
 .benefit-card {
   display: flex;
+  margin-left: 47.5px;
   margin-top: 74px;
   width: 1120px;
   height: 204px;
+}
+.card {
+  width: 245px;
+  height: 178px;
+  margin-left: 47.5px;
+}
+.card-border {
+  width: 51.142px;
+  height: 50px;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card:nth-child(1) .card-border {
+  background: #02897a;
+}
+.card:nth-child(2) .card-border {
+  background: #4d8dff;
+}
+.card:nth-child(3) .card-border {
+  background: #740a76;
+}
+.card:nth-child(4) .card-border {
+  background: #f03e3d;
+}
+
+.card-item {
+  margin-top: 30px;
+}
+.card-item p {
+  margin-top: 13px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
+.benefit-button {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+}
+.benefit-button a {
+  width: 152px;
+  padding: 15px 46px;
+  display: flex;
+  justify-content: center;
+  font-weight: var(--fw-bold);
 }
