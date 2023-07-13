@@ -5,31 +5,31 @@
   justify-content: space-between;
   align-items: center;
 }
-.header__logo {
+.header-logo {
   font-weight: var(--fw-bold);
   padding-right: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.logo__img {
+.logo-img {
   padding-left: 146px;
 }
-.logo__text {
+.logo-text {
   padding: 29px 0px;
   font-size: 30px;
 }
-.header__navbar {
+.header-navbar {
   margin-right: 271px;
   display: flex;
   justify-content: space-between;
 }
-.navbar__item {
+.navbar-item {
   display: inherit;
   align-items: center;
   margin-right: 32px;
 }
-.navbar__link {
+.navbar-link {
   padding-left: 30px;
   font-weight: var(--fw-regular);
 }

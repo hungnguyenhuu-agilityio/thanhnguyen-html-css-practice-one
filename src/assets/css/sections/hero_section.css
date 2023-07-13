@@ -3,25 +3,25 @@
   flex-direction: row;
   margin: 25px 150px 0 145px;
 }
-.hero__img {
+.hero-img {
   margin-left: 47px;
 }
-.hero__text {
+.hero-text {
   padding: 18px;
   margin-top: 107px;
   margin-right: 47px;
   width: 518px;
   height: 331px;
 }
-.hero__text p {
+.hero-text p {
   font-size: var(--font-size-md);
   font-weight: var(--fw-regular);
   line-height: 26px;
 }
-.hero__button {
+.hero-button {
   margin-top: 45px;
 }
-.hero__link {
+.hero-link {
   margin-top: 60px;
   margin-left: 30px;
   color: var(--secondary-color);
