@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is Thanh Nguyen repositories of html/css practice one",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
