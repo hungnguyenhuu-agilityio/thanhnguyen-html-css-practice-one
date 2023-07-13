@@ -1,11 +1,6 @@
 /*-----------------------------------------*\
   #TYPOGRAPHY ELEMENT
 \*-----------------------------------------*/
-p {
-  font-size: var(--font-size-sm);
-  font-weight: var(--fw-regular);
-  line-height: 26px;
-}
 a {
   text-decoration: none;
 }
