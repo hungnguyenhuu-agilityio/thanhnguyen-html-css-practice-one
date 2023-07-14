@@ -1,0 +1,23 @@
+.items {
+  width: 245px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.text-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-semibold);
+}
+
+.text-desc {
+  padding-top: 15px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
