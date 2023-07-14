@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .header-logo {
   font-weight: var(--fw-bold);
   padding-right: 20px;
@@ -12,28 +13,34 @@
   align-items: center;
   gap: 10px;
 }
+
 .logo-img {
   padding-left: 146px;
 }
+
 .logo-text {
   padding: 29px 0px;
   font-size: 30px;
 }
+
 .header-navbar {
   margin-right: 271px;
   display: flex;
   justify-content: space-between;
 }
+
 .navbar-item {
   display: inherit;
   align-items: center;
   margin-right: 32px;
 }
+
 .navbar-link {
   padding-left: 30px;
   font-weight: var(--fw-regular);
 }
-.navbar-button a{
+
+.navbar-button a {
   padding: 10px 25px;
   font-weight: var(--fw-semibold);
 }

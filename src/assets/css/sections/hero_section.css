@@ -3,24 +3,29 @@
   flex-direction: row;
   margin: 25px 150px 0 145px;
 }
+
 .hero-text {
   margin-top: 107px;
   margin-right: 47px;
   width: 518px;
   height: 331px;
 }
+
 .hero-text p {
   font-size: var(--font-size-md);
   font-weight: var(--fw-regular);
   line-height: 26px;
 }
+
 .hero-click{
   margin-top: 45px;
 }
+
 .hero-button{
   font-weight: var(--fw-bold);
   padding: 15px 41px;
 }
+
 .hero-link {
   margin-top: 60px;
   margin-left: 30px;
