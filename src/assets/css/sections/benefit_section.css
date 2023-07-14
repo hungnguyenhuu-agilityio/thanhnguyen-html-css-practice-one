@@ -1,72 +1,55 @@
 .benefit-section {
-  height: 543px;
-  margin-top: 55px;
-  margin-left: 55px;
+  padding-top: 65px;
 }
 
 .benefit-text {
+  margin: 0 auto;
+  width: 500px;
   text-align: center;
-  margin-left: 142px;
-  margin-right: 142px;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+  line-height: normal;
 }
 
-.benefit-card {
+.product-items {
+  gap: 50px;
   display: flex;
-  margin-left: 47.5px;
-  margin-top: 74px;
-  width: 1120px;
-  height: 204px;
+  padding-top: 72px;
 }
 
-.card {
-  width: 245px;
-  height: 178px;
-  margin-left: 47.5px;
-}
-
-.card-border {
-  width: 51.142px;
+.icon-background {
+  width: 50px;
   height: 50px;
   border-radius: 19px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
-.card:nth-child(1) .card-border {
+.items:nth-child(1) .icon-background {
   background: #02897a;
 }
 
-.card:nth-child(2) .card-border {
+.items:nth-child(2) .icon-background {
   background: #4d8dff;
 }
 
-.card:nth-child(3) .card-border {
+.items:nth-child(3) .icon-background {
   background: #740a76;
 }
 
-.card:nth-child(4) .card-border {
+.items:nth-child(4) .icon-background {
   background: #f03e3d;
 }
 
-.card-item {
-  margin-top: 30px;
-}
-
-.card-item p {
-  margin-top: 13px;
-  font-size: var(--font-size-sm);
-  font-weight: var(--fw-regular);
-  line-height: 26px;
-}
-
 .benefit-button {
-  margin-top: 26px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
 }
 
-.benefit-button a {
+.button-title {
   width: 152px;
   padding: 15px 46px;
   display: flex;
