@@ -54,5 +54,6 @@
   padding: 15px 46px;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
   font-weight: var(--fw-bold);
 }
