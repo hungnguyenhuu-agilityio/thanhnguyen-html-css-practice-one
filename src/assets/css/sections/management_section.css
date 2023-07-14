@@ -1,24 +1,29 @@
 .management-section {
   display: flex;
   flex-direction: row;
-  margin-left: 148px;
-  width: 1120px;
-  height: 473.471px;
+  padding-top: 70px;
 }
+
 .management-text {
-    padding-right: 87px;
-  width: 492.674px;
-  height: 435px;
+  padding-right: 87px;
 }
-.management-text p {
-  margin-top: 12px;
+
+.management-topic {
+  padding-bottom: 30px;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+  line-height: normal;
+}
+
+.management-title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  padding-bottom: 15px;
+}
+
+.management-desc {
+  padding-bottom: 30px;
   font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
   line-height: 26px;
-}
-.text-title {
-  padding-bottom: 30px;
-}
-.text-sub-title {
-  padding-bottom: 25px;
 }
