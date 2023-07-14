@@ -1,0 +1,24 @@
+.management-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 148px;
+  width: 1120px;
+  height: 473.471px;
+}
+.management-text {
+    padding-right: 87px;
+  width: 492.674px;
+  height: 435px;
+}
+.management-text p {
+  margin-top: 12px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
+.text-title {
+  padding-bottom: 30px;
+}
+.text-sub-title {
+  padding-bottom: 25px;
+}

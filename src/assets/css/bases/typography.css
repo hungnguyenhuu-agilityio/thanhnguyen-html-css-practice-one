@@ -20,7 +20,10 @@ h3 {
   font-size: var(--font-size-lg);
   font-weight: var(--fw-semibold);
 }
-
+h4 {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+}
 
 /*-----------------------------------------*\
   #TEXT CLASSES
@@ -29,7 +32,6 @@ h3 {
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
-
 
 /*-----------------------------------------*\
   #SET FONT FAMILY
