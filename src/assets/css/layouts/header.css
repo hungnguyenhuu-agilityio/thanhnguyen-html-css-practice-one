@@ -43,6 +43,7 @@
 }
 
 .nav-button-text {
+  border: none;
   padding: 10px 25px;
   font-weight: var(--fw-semibold);
 }

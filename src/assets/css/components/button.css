@@ -11,7 +11,8 @@
 
 .btn--secondary {
   margin-right: 32px;
-  border: 1px solid #bcd0e5;
+  border: 1px solid #ccc;
+  background: #1f2e35;
 }
 
 .btn--primary {
