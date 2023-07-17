@@ -1,0 +1,29 @@
+.management-section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+}
+
+.management-text {
+  padding-right: 87px;
+}
+
+.management-topic {
+  padding-bottom: 30px;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+  line-height: normal;
+}
+
+.management-title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  padding-bottom: 15px;
+}
+
+.management-desc {
+  padding-bottom: 30px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
