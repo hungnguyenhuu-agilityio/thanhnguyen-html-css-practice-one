@@ -23,22 +23,26 @@
   justify-content: space-between;
 }
 
-.navbar-item {
+.nav-item {
   display: flex;
   flex-direction: row;
 }
 
-.navbar-link {
+.nav-link {
   margin-left: 32px;
   text-decoration: none;
   font-weight: var(--fw-regular);
 }
 
-.navbar-button {
+.nav-link:hover {
+  font-weight: var(--fw-semibold);
+}
+
+.nav-button {
   padding-left: 35px;
 }
 
-.button-text {
+.nav-button-text {
   padding: 10px 25px;
   font-weight: var(--fw-semibold);
 }
