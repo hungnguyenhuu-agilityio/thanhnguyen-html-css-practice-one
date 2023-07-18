@@ -10,12 +10,12 @@
   gap: 10px;
 }
 
-.item-text-title {
+.item-title {
   font-size: var(--font-size-lg);
   font-weight: var(--fw-semibold);
 }
 
-.item-text-desc {
+.item-desc {
   padding-top: 15px;
   font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
