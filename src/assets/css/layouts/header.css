@@ -26,6 +26,7 @@
 .nav-item {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .nav-link {
@@ -39,10 +40,5 @@
 }
 
 .nav-button {
-  padding-left: 35px;
-}
-
-.nav-button-text {
-  padding: 10px 25px;
   font-weight: var(--fw-semibold);
 }
