@@ -1,0 +1,41 @@
+.hero-section {
+  display: flex;
+}
+
+.hero-content {
+  margin-top: 150px;
+}
+
+.hero-title {
+  width: 400px;
+  font-size: 40px;
+  font-weight: var(--fw-bold);
+  line-height: 60px;
+  padding-bottom: 18px;
+}
+
+.hero-desc {
+  width: 458px;
+  font-size: var(--font-size-md);
+  font-weight: var(--fw-regular);
+  line-height: 28px;
+  padding-bottom: 45px;
+}
+
+.hero-button {
+  font-weight: var(--fw-bold);
+  padding: 15px 41px;
+}
+
+.hero-link {
+  line-height: 80px;
+  margin-left: 30px;
+  color: var(--secondary-color);
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-bold);
+  text-decoration-line: underline;
+}
+
+.hero-img {
+  margin-top: 25px;
+}
