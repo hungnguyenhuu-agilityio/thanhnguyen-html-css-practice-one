@@ -29,23 +29,25 @@
   margin-bottom: 30px;
 }
 
-.product-item:nth-child(1) .icon-background {
+.benefit-item:nth-child(1) .icon-background {
   background: #02897a;
 }
 
-.product-item:nth-child(2) .icon-background {
+.benefit-item:nth-child(2) .icon-background {
   background: #4d8dff;
 }
 
-.product-item:nth-child(3) .icon-background {
+.benefit-item:nth-child(3) .icon-background {
   background: #740a76;
 }
 
-.product-item:nth-child(4) .icon-background {
+.benefit-item:nth-child(4) .icon-background {
   background: #f03e3d;
 }
 
 .benefit-button {
+  width: fit-content;
+  align-self: center;
   margin-top: 22px;
   padding: 15px 70px;
   text-transform: uppercase;
