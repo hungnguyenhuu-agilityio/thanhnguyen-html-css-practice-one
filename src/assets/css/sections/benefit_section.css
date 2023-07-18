@@ -1,0 +1,60 @@
+.benefit-section {
+  padding-top: 65px;
+}
+
+.benefit-text {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+  line-height: normal;
+}
+
+.product-items {
+  gap: 50px;
+  display: flex;
+  padding-top: 72px;
+}
+
+.icon-background {
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.item:nth-child(1) .icon-background {
+  background: #02897a;
+}
+
+.item:nth-child(2) .icon-background {
+  background: #4d8dff;
+}
+
+.item:nth-child(3) .icon-background {
+  background: #740a76;
+}
+
+.item:nth-child(4) .icon-background {
+  background: #f03e3d;
+}
+
+.benefit-button {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.benefit-button-title {
+  width: 152px;
+  padding: 15px 46px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+}
