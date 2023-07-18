@@ -16,7 +16,7 @@ This is Thanh Nguyen repositories of html/css practice one
 
 ## Information:
 
-- Timeline: 2023/07/05 – 2023/07/14
+- Timeline: 2023/07/05 – 2023/07/18
 - Editor: Visual Studio Code
 - Supported browser: Google Chrome
 

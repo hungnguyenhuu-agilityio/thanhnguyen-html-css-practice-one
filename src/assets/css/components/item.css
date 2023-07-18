@@ -1,0 +1,23 @@
+.benefit-item {
+  flex: 1;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.item-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-semibold);
+}
+
+.item-desc {
+  padding-top: 15px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}
