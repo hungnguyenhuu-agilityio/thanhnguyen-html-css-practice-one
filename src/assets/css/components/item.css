@@ -1,8 +1,8 @@
-.item {
-  width: 245px;
+.benefit-item {
+  flex: 1;
 }
 
-.item-text {
+.item-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
