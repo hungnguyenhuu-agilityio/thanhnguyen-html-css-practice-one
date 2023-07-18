@@ -1,5 +1,7 @@
 .benefit-section {
   padding-top: 65px;
+  display: flex;
+  flex-direction: column;
 }
 
 .benefit-text {
@@ -11,10 +13,10 @@
   line-height: normal;
 }
 
-.product-items {
+.benefit-items {
   gap: 50px;
   display: flex;
-  padding-top: 72px;
+  padding-top: 60px;
 }
 
 .icon-background {
@@ -27,34 +29,25 @@
   margin-bottom: 30px;
 }
 
-.item:nth-child(1) .icon-background {
+.product-item:nth-child(1) .icon-background {
   background: #02897a;
 }
 
-.item:nth-child(2) .icon-background {
+.product-item:nth-child(2) .icon-background {
   background: #4d8dff;
 }
 
-.item:nth-child(3) .icon-background {
+.product-item:nth-child(3) .icon-background {
   background: #740a76;
 }
 
-.item:nth-child(4) .icon-background {
+.product-item:nth-child(4) .icon-background {
   background: #f03e3d;
 }
 
 .benefit-button {
-  padding-top: 30px;
-  padding-bottom: 90px;
-  display: flex;
-  justify-content: center;
-}
-
-.benefit-button-title {
-  width: 152px;
-  padding: 15px 46px;
-  display: flex;
-  justify-content: center;
+  margin-top: 22px;
+  padding: 15px 70px;
   text-transform: uppercase;
   font-weight: var(--fw-bold);
 }
