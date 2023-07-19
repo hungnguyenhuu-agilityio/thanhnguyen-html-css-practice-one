@@ -1,0 +1,17 @@
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 134px;
+}
+
+.social-icon {
+  padding-top: 26px;
+  padding-right: 12px;
+}
+
+.footer-text {
+  padding-top: 40px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+}
