@@ -24,13 +24,14 @@
 
 .hero-link {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
 .hero-button {
   font-weight: var(--fw-bold);
-  padding: 17px 41px;
+  padding: 18px 41px;
   margin-right: 20px;
 }
 
@@ -39,6 +40,9 @@
   font-size: var(--font-size-sm);
   font-weight: var(--fw-bold);
   text-decoration-line: underline;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .hero-img {
