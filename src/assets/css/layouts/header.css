@@ -1,16 +1,16 @@
 .header-section {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   line-height: 28px;
 }
 
 .header-logo {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   text-decoration: none;
   font-weight: var(--fw-bold);
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .logo-text {
@@ -20,17 +20,18 @@
 
 .header-navbar {
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
+  padding-top: 19px;
 }
 
 .nav-item {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 35px;
 }
 
 .nav-link {
-  margin-left: 32px;
   text-decoration: none;
   font-weight: var(--fw-regular);
 }
@@ -40,5 +41,7 @@
 }
 
 .nav-button {
+  gap: 10px;
+  padding: 10px 23px;
   font-weight: var(--fw-semibold);
 }
