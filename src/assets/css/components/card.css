@@ -13,8 +13,8 @@
   color: var(--primary-color);
 }
 
-.card:hover .price-number,
-.card:hover .price-dollar {
+.card:hover .integer,
+.card:hover .currency {
   color: var(--primary-color);
 }
 
@@ -24,7 +24,7 @@
   background: var(--primary-color);
 }
 
-.card-header {
+.card-headline {
   text-align: center;
   font-family: var(--primary-font);
   font-size: var(--font-size-xl);
@@ -41,14 +41,14 @@
   line-height: 20px;
 }
 
-.card-price {
+.price-wrapper {
   font-family: var(--primary-font);
   display: flex;
   padding-left: 71px;
   padding-top: 30px;
 }
 
-.card-price-right {
+.price-suffix {
   padding-left: 8px;
   padding-top: 30px;
 }
@@ -62,14 +62,14 @@
   letter-spacing: 0.2px;
 }
 
-.card-button {
+.card-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
 }
 
-.card-button-text {
+.card-button {
   font-family: Montserrat;
   color: var(--primary-color);
   font-size: var(--font-size-md);
