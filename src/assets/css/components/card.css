@@ -6,6 +6,8 @@
   width: 326px;
   height: 456px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -62,17 +64,12 @@
   letter-spacing: 0.2px;
 }
 
-.card-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-}
-
-.card-button-text {
+.card-footer {
   font-family: Montserrat;
   color: var(--primary-color);
   font-size: var(--font-size-md);
   font-weight: var(--fw-semibold);
   padding: 11px 20px;
+  align-self: center;
+  width: fit-content;
 }
