@@ -1,9 +1,10 @@
 .hero-section {
+  margin-top: 43px;
   display: flex;
 }
 
 .hero-content {
-  margin-top: 150px;
+  margin-top: 102px;
 }
 
 .hero-title {
@@ -15,21 +16,25 @@
 }
 
 .hero-desc {
-  width: 458px;
   font-size: var(--font-size-md);
   font-weight: var(--fw-regular);
   line-height: 28px;
-  padding-bottom: 45px;
+  padding-bottom: 58px;
+}
+
+.hero-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .hero-button {
   font-weight: var(--fw-bold);
-  padding: 15px 41px;
+  padding: 17px 41px;
+  margin-right: 20px;
 }
 
-.hero-link {
-  line-height: 80px;
-  margin-left: 30px;
+.hero-video {
   color: var(--secondary-color);
   font-size: var(--font-size-sm);
   font-weight: var(--fw-bold);
@@ -37,5 +42,7 @@
 }
 
 .hero-img {
-  margin-top: 25px;
+  width: 600px;
+  height: 555px;
+  padding-left: 70px;
 }
