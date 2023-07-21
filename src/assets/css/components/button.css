@@ -10,11 +10,11 @@
   cursor: pointer;
 }
 
-.btn--secondary {
+.btn-secondary {
   border: 1px solid #ccc;
   background: #1f2e35;
 }
 
-.btn--primary {
+.btn-primary {
   background: #02897a;
 }

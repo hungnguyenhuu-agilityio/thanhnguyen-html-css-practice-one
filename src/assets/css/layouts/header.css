@@ -24,19 +24,19 @@
   padding-top: 19px;
 }
 
-.nav-item {
+.nav-list {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 35px;
 }
 
-.nav-link {
+.nav-item {
   text-decoration: none;
   font-weight: var(--fw-regular);
 }
 
-.nav-link:hover {
+.nav-item:hover {
   font-weight: var(--fw-semibold);
 }
 
