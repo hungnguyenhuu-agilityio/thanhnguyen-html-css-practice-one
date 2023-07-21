@@ -4,7 +4,6 @@
   color: #22343d;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
   width: 326px;
-  height: 456px;
   flex-shrink: 0;
 }
 
@@ -13,18 +12,16 @@
   color: var(--primary-color);
 }
 
-.card:hover .price-number,
-.card:hover .price-dollar {
+.card:hover .price-number {
   color: var(--primary-color);
 }
 
-.card:hover .btn,
-.card:hover .btn-primary {
+.card:hover .card-button {
   color: var(--secondary-color);
   background: var(--primary-color);
 }
 
-.card-header {
+.card-headline {
   text-align: center;
   font-family: var(--primary-font);
   font-size: var(--font-size-xl);
@@ -39,18 +36,48 @@
   font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
   line-height: 20px;
+  padding-bottom: 25px;
 }
 
 .card-price {
   font-family: var(--primary-font);
-  display: flex;
-  padding-left: 71px;
-  padding-top: 30px;
+  padding-left: 86px;
+  position: relative;
 }
 
-.card-price-right {
-  padding-left: 8px;
-  padding-top: 30px;
+.card-price::before {
+  content: "$";
+  color: var(--secondary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-bold);
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  top: 25px;
+  right: 165px;
+}
+
+.card:hover .card-price::before {
+  color: var(--primary-color);
+}
+
+.card-price::after {
+  content: "Per / month";
+  color: #afafaf;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.1px;
+  position: absolute;
+  bottom: 25px;
+  left: 145px;
+}
+
+.card:nth-child(3) .card-price::before {
+  right: 140px; 
+}
+
+.card:nth-child(3) .card-price::after {
+  left: 170px;
 }
 
 .card-desc {
@@ -62,17 +89,18 @@
   letter-spacing: 0.2px;
 }
 
-.card-button {
+.card-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
 }
 
-.card-button-text {
+.card-button {
   font-family: Montserrat;
   color: var(--primary-color);
   font-size: var(--font-size-md);
   font-weight: var(--fw-semibold);
-  padding: 11px 20px;
+  padding: 12px 19px;
+  border-radius: 8px;
 }

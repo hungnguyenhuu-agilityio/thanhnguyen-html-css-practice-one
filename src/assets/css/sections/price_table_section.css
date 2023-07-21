@@ -1,9 +1,9 @@
 .price-table-section {
-  padding-top: 12px;
+  padding-top: 32px;
 }
 
 .price-table-text {
-  padding-bottom: 41px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -30,20 +30,4 @@
   font-weight: var(--fw-bold);
   line-height: 100px;
   letter-spacing: 0.2px;
-}
-
-.price-dollar {
-  color: var(--secondary-color);
-  font-size: var(--font-size-xl);
-  font-weight: var(--fw-bold);
-  line-height: 30px;
-  letter-spacing: 0.1px;
-}
-
-.price-per {
-  color: #afafaf;
-  font-size: var(--font-size-sm);
-  font-weight: var(--fw-regular);
-  line-height: 19px;
-  letter-spacing: 0.1px;
 }
