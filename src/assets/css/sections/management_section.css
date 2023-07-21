@@ -6,14 +6,13 @@
 }
 
 .management-content {
-  margin-top: 26px;
+  margin-top: 22px;
 }
 
 .management-topic {
   padding-bottom: 32px;
   font-size: var(--font-size-2xl);
   font-weight: var(--fw-bold);
-  /* line-height: normal; */
 }
 
 .management-title {
