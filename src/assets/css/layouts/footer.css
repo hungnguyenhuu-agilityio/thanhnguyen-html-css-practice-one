@@ -11,8 +11,9 @@
 }
 
 .social-icon {
+  display: flex;
   padding-top: 23px;
-  padding-right: 11px;
+  gap: 15px;
 }
 
 .footer-text {
