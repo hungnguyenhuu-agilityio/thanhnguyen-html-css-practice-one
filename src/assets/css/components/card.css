@@ -12,13 +12,11 @@
   color: var(--primary-color);
 }
 
-.card:hover .integer,
-.card:hover .currency {
+.card:hover .price-number {
   color: var(--primary-color);
 }
 
-.card:hover .btn,
-.card:hover .btn-primary {
+.card:hover .card-button {
   color: var(--secondary-color);
   background: var(--primary-color);
 }
@@ -38,18 +36,48 @@
   font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
   line-height: 20px;
+  padding-bottom: 25px;
 }
 
-.price-wrapper {
+.card-price {
   font-family: var(--primary-font);
-  display: flex;
-  padding-left: 71px;
-  padding-top: 30px;
+  padding-left: 86px;
+  position: relative;
 }
 
-.price-suffix {
-  padding-left: 8px;
-  padding-top: 30px;
+.card-price::before {
+  content: "$";
+  color: var(--secondary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--fw-bold);
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  top: 25px;
+  right: 165px;
+}
+
+.card:hover .card-price::before {
+  color: var(--primary-color);
+}
+
+.card-price::after {
+  content: "Per / month";
+  color: #afafaf;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.1px;
+  position: absolute;
+  bottom: 25px;
+  left: 145px;
+}
+
+.card:nth-child(3) .card-price::before {
+  right: 140px; 
+}
+
+.card:nth-child(3) .card-price::after {
+  left: 170px;
 }
 
 .card-desc {
@@ -57,7 +85,7 @@
   font-family: var(--secondary-font);
   font-size: var(--font-size-sm);
   font-weight: 500;
-  line-height: 39px;
+  line-height: 40px;
   letter-spacing: 0.2px;
 }
 
