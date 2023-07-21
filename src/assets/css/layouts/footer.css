@@ -1,12 +1,18 @@
 .footer-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 134px;
+  margin-top: 134px;
+  margin-bottom: 92px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
 }
 
 .social-icon {
-  padding-top: 26px;
-  padding-right: 12px;
+  padding-top: 23px;
+  padding-right: 11px;
 }
 
 .footer-text {
