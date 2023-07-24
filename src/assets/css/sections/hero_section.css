@@ -36,13 +36,28 @@
 }
 
 .hero-video {
-  color: var(--secondary-color);
   font-size: var(--font-size-sm);
   font-weight: var(--fw-bold);
   text-decoration-line: underline;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.hero-video:hover {
+  color: var(--secondary-color);
+}
+
+.hero-video .original-image {
+  display: none;
+}
+
+.hero-video:hover .original-image {
+  display: block;
+}
+
+.hero-video:hover .hover-image {
+  display: none;
 }
 
 .hero-img {

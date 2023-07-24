@@ -10,11 +10,17 @@
   cursor: pointer;
 }
 
-.btn-secondary {
-  border: 1px solid #ccc;
-  background: #1f2e35;
+.btn:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .btn-primary {
-  background: #02897a;
+  border: 1px solid #bcd0e5;
+  background: #1f2e35; 
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
