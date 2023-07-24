@@ -1,4 +1,4 @@
-.benefit-section {
+.benefit {
   margin-top: 45px;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@
   gap: 46px;
 }
 
-.icon-background {
+.item-icon {
   width: 50px;
   height: 50px;
   border-radius: 19px;
@@ -29,19 +29,19 @@
   margin-bottom: 40px;
 }
 
-.benefit-item:nth-child(1) .icon-background {
+.benefit-item:nth-child(1) .item-icon {
   background: #02897a;
 }
 
-.benefit-item:nth-child(2) .icon-background {
+.benefit-item:nth-child(2) .item-icon {
   background: #4d8dff;
 }
 
-.benefit-item:nth-child(3) .icon-background {
+.benefit-item:nth-child(3) .item-icon {
   background: #740a76;
 }
 
-.benefit-item:nth-child(4) .icon-background {
+.benefit-item:nth-child(4) .item-icon {
   background: #f03e3d;
 }
 
