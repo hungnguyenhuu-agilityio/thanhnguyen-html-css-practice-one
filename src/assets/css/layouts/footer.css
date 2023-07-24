@@ -10,10 +10,15 @@
   flex-direction: column;
 }
 
-.social-icon {
+.social-icon-list {
   display: flex;
   padding-top: 23px;
   gap: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-text {
