@@ -1,4 +1,4 @@
-.card {
+.card-wrapper {
   border-radius: 8px;
   background: var(--primary-color);
   color: #22343d;
@@ -7,16 +7,16 @@
   flex-shrink: 0;
 }
 
-.card:hover {
+.card-wrapper:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.card:hover .price-number {
+.card-wrapper:hover .price-number {
   color: var(--primary-color);
 }
 
-.card:hover .card-button {
+.card-wrapper:hover .card-button {
   color: var(--secondary-color);
   background: var(--primary-color);
 }
@@ -57,7 +57,7 @@
   right: 165px;
 }
 
-.card:hover .card-price::before {
+.card-wrapper:hover .card-price::before {
   color: var(--primary-color);
 }
 
@@ -72,11 +72,11 @@
   left: 145px;
 }
 
-.card:nth-child(3) .card-price::before {
+.card-wrapper:nth-child(3) .card-price::before {
   right: 140px; 
 }
 
-.card:nth-child(3) .card-price::after {
+.card-wrapper:nth-child(3) .card-price::after {
   left: 170px;
 }
 
