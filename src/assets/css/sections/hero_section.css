@@ -24,40 +24,36 @@
 
 .hero-link {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
+}
+
+.link-video {
+  display: flex;
+  gap: 5px;
 }
 
 .hero-button {
   font-weight: var(--fw-bold);
   padding: 18px 41px;
-  margin-right: 20px;
 }
 
-.hero-video {
+.link-icon {
+  width: 20px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.link-button {
   font-size: var(--font-size-sm);
   font-weight: var(--fw-bold);
   text-decoration-line: underline;
   display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
-.hero-video:hover {
+.link-video:hover .link-button,
+.link-video:hover .link-icon {
   color: var(--secondary-color);
-}
-
-.hero-video .original-image {
-  display: none;
-}
-
-.hero-video:hover .original-image {
-  display: block;
-}
-
-.hero-video:hover .hover-image {
-  display: none;
 }
 
 .hero-img {
