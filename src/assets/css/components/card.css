@@ -25,7 +25,6 @@
   text-align: center;
   font-family: var(--primary-font);
   font-size: var(--font-size-xl);
-  font-style: normal;
   font-weight: var(--fw-bold);
   line-height: 80px;
 }
@@ -36,48 +35,44 @@
   font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
   line-height: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
 }
 
 .card-price {
   font-family: var(--primary-font);
-  padding-left: 86px;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-.card-price::before {
-  content: "$";
+.price-title {
+  padding-left: 6px;
+  padding-top: 26px;
+}
+
+.dollar {
   color: var(--secondary-color);
+  font-family: var(--secondary-font);
   font-size: var(--font-size-xl);
   font-weight: var(--fw-bold);
   line-height: 30px;
   letter-spacing: 0.1px;
-  position: absolute;
-  top: 25px;
-  right: 165px;
 }
 
-.card-wrapper:hover .card-price::before {
+.period {
+  color: #afafaf;
+  font-family: var(--primary-font);
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 19px; 
+  letter-spacing: 0.1px;
+}
+
+.card-wrapper:hover .dollar {
   color: var(--primary-color);
 }
 
-.card-price::after {
-  content: "Per / month";
-  color: #afafaf;
-  font-size: var(--font-size-sm);
-  font-weight: var(--fw-regular);
-  letter-spacing: 0.1px;
-  position: absolute;
-  bottom: 25px;
-  left: 145px;
-}
-
-.card-wrapper:nth-child(3) .card-price::before {
-  right: 140px; 
-}
-
-.card-wrapper:nth-child(3) .card-price::after {
-  left: 170px;
+.card-wrapper:hover .period {
+  color: #E0E0E0
 }
 
 .card-desc {
@@ -85,7 +80,7 @@
   font-family: var(--secondary-font);
   font-size: var(--font-size-sm);
   font-weight: 500;
-  line-height: 40px;
+  line-height: 38px;
   letter-spacing: 0.2px;
 }
 
