@@ -92,7 +92,7 @@
 }
 
 .card-button {
-  font-family: Montserrat;
+  font-family: var(--third-font);
   color: var(--primary-color);
   font-size: var(--font-size-md);
   font-weight: var(--fw-semibold);
